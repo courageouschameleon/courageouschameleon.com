@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+	background-color: #CCCCCC;
+	background-image: url(bg.png);
+	background-repeat:no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	color:#08D;
+}
+
+a:link, a:visited {
+	color:#F25;
+}
+
+a:active {
+	color:#330;
+}
+
+#logo {
+	position:absolute;
+	left:136px;
+	top:53px;
+	width:273px;
+	height:179px;
+	z-index:1;
+}
+#content {
+	position:absolute;
+	left:223px;
+	top:266px;
+	width:399px;
+	height:134px;
+	z-index:2;
+}

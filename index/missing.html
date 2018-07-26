@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGFCGDM');</script>
+<!-- End Google Tag Manager -->
+<title>Courageous Chameleon – Contact</title>
+<meta charset="UTF-8" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<script>
+<!--
+function wipe(element) {
+  if (! element.wiped) {
+    element.style.color = '#000000';  
+    element.value = '';
+    element.wiped = true;
+  }
+}
+function fill(element, text) {
+  if (element.value == '') {
+    element.style.color = '#999999';
+	element.value = text;
+    element.wiped = false;
+  }
+}
+function setEmail() {
+  document.forms[0].elements[0].value = 'hu' + 'man' + String.fromCharCode(64) + document.domain.replace(/www./, '');
+}
+//-->
+</script> 
+</head>
+
+<body onLoad="setEmail();">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGFCGDM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="logo"><img alt="Courageous Chameleon" src="logo.png" width="273" height="179" /></div>
+<div id="content">
+<form action="http://courageouschameleon.com/cgi-bin/FormMail.pl"
+  method="post" enctype="application/x-www-form-urlencoded">
+
+<input type="hidden" name="recipient" value="" />
+<input type="hidden" name="subject" value="courageouschameleon.com feedback" />
+<input type="hidden" name="required" value="realname,email" />
+<input type="hidden" name="redirect"
+  value="http://courageouschameleon.com/index/sent.html" />
+<input type="hidden" name="missing_fields_redirect"
+  value="http://courageouschameleon.com/index/missing.html" />
+
+<input style="width: 265px; color: #999999;" type="text" name="realname" value="Name *" onFocus="wipe(this);" onBlur="fill(this, 'Name *');" /> &lt;&lt; Required
+<br />
+<input style="width: 265px; color: #999999;" type="text" name="email" value="Email *" onFocus="wipe(this);" onBlur="fill(this, 'Email *');" /> &lt;&lt; Required
+<br />
+<input style="width: 265px; color: #999999;" type="text" name="phone" value="Phone" onFocus="wipe(this);" onBlur="fill(this, 'Phone');" />
+<br />
+<textarea style="width: 265px; color: #999999;" name="comments" rows="5" cols="40" onFocus="wipe(this);" onBlur="fill(this, 'What\'s on your mind?');">What's on your mind?</textarea> &lt;&lt; Required
+<br />
+<input style="color: #999999;" type="button" value="Cancel" onClick="document.location='/';" />
+<input type="submit" value="Send Your Message" />
+</form>
+</div>
+</body>
+</html>
